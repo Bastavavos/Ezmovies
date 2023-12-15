@@ -16,4 +16,4 @@ Route::get('/movie', [MovieController::class, 'showList']);
 Route::get('/movie/{id}', [MovieController::class, 'showMovie']);
 
 
-Route::get('/new', 'create')->name('create');
+//Route::get('/new', 'create')->name('create');
